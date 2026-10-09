@@ -39,13 +39,12 @@ This project is a REST API for managing student records. It uses Python, FastAPI
 ## Project Structure
 
 ```text
-student_crud_api/
+student-crud-api/
 ├── main.py
 ├── database.py
 ├── requirements.txt
 ├── .gitignore
-├── README.md
-└── students.db
+└── README.md
 ```
 
 The `.venv` folder and `students.db` are local files and should not be committed to GitHub.
@@ -55,11 +54,9 @@ The `.venv` folder and `students.db` are local files and should not be committed
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd student_crud_api
+git clone https://github.com/Lingaswamy727/student-crud-api.git
+cd student-crud-api
 ```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
 
 ### 2. Create and activate a virtual environment
 
@@ -121,3 +118,4 @@ The endpoints were tested using FastAPI's interactive Swagger UI. Create, read, 
 ## Author
 
 Python Backend Development Intern
+
